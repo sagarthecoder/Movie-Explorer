@@ -10,14 +10,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GenreListCollectionViewCell" customModule="Movie_Explorer_Test" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="154" height="80"/>
+            <rect key="frame" x="0.0" y="0.0" width="212" height="76"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="154" height="80"/>
+                <rect key="frame" x="0.0" y="0.0" width="212" height="76"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaG-MM-pL8">
-                        <rect key="frame" x="56" y="29.5" width="42" height="21"/>
+                        <rect key="frame" x="85" y="27.5" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -29,11 +29,11 @@
                 <constraint firstItem="NaG-MM-pL8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="G1e-kn-OtT"/>
                 <constraint firstItem="NaG-MM-pL8" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="iPn-vM-Wgp"/>
             </constraints>
-            <size key="customSize" width="154" height="80"/>
+            <size key="customSize" width="212" height="76"/>
             <connections>
                 <outlet property="categoryTitleLabel" destination="NaG-MM-pL8" id="K8O-qW-UzT"/>
             </connections>
-            <point key="canvasLocation" x="207.24637681159422" y="89.732142857142847"/>
+            <point key="canvasLocation" x="249.27536231884059" y="88.392857142857139"/>
         </collectionViewCell>
     </objects>
 </document>

@@ -14,6 +14,8 @@ class MoviePosterCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        self.layer.cornerRadius = 10
+        self.clipsToBounds = true
     }
     
     override func prepareForReuse() {

@@ -7,9 +7,17 @@
 
 import UIKit
 
+enum MovieExplorer {
+    case genre
+    case moviews
+    case popular
+}
+
 class ViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    
+    
+    
+    
+    
 }
 
